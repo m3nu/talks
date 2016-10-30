@@ -96,7 +96,7 @@ layout: false
 - Avoid polyunsaturated fat > reduce cancer risk and inflammation.red[e]
 - More nutritionally dense food > improved micros
 - Reduced appetite > easy fasting > autophagy.red[b] and apoptosis.red[c]
-- Fewer fermentable carbohydrates > less tooth decay and caries.red[d]
+- Fewer fermentable carbohydrates > less tooth decay and cavity.red[d]
 
 .footnote[
   .red[a] *The Dietary Intake of Wheat and other Cereal Grains and Their Role in Inflammation*, De Punder and Pruimboom
@@ -123,20 +123,24 @@ layout: false
 ### Reduce carbohydrates by chaning your macro-nutrients
 
 3 macro-nutrients:
-- *Protein*: Usually constant at ~1g/kg body weight
 - *Carbohydrates*: Intake dramatically increased since 1960s..red[a]
 - *Fat*: Safest food of all, no insulin reaction, clean and efficient fuel
+- *Protein*: Constant at 1.4g (female: 1.2g) per kg ideal body weight per day.red[b]
 
 How to start your ketogenic diet:
-- Shift macros from carbs to fat, protein constant
-- Less than 30-50g net carbs per day
-- Measure urine ketones in the first weeks
-- 2 weeks adaption phase, ~10% weight loss
-- Short fasting periods, e.g. 16:8 hours
-- Track food intake in the first weeks
+- Shift macros from carbs to fat, protein constant.
+- Less than 20g net carbs per day.
+- 2 weeks adaption phase, with temporary side-effects.red[c]
+- Short fasting periods, e.g. 16:8 hours can be helpful.
+- Track food intake in the first weeks.
 
 .footnote[
   .red[a] Possible Reasons: agricultural subsidies, misguided dietary recommendations, industry lobbying, unfounded fear of fat.
+
+  .red[b] *Metabolic Aspects of a Protein-Sparing Modified Fast in the Dietary Management of Prader-Willi Obesity*, Bistrian et al.
+
+  .red[c] [*Low-Carb Side Effects
+& How to Cure Them*](https://www.dietdoctor.com/low-carb/side-effects)
 ]
 
 ]
@@ -160,17 +164,16 @@ How to start your ketogenic diet:
 Safe to eat:
 - saturated and monounsatured fat: animal fat, coconut cream and oil, dark chocolate (>85%), olive oil, avocados
 - non-starchy (green) vegetables: spinach, salad, ...
-- meat: beef and lamb
+- meat: beef and lamb, eggs
 - oily fish: tuna, mackerel, sardines, salmon
-- berries, eggs, fatty nuts
+- berries and fatty nuts in small amounts
 
 These foods should be avoided:
 - all sugar, added sugar and sugar-drinks
-- high-gycemic index.red[a] food
+- any high-gycemic index.red[a] foods
 - wheat, starches, rice, legumes
 - fruits, fructose, high-fructose corn syrup, all fruit smoothies
 - polyunsaturated fats (especially omega-6), especially from vegetable oils
-- most dairy, except old cheese
 
 .footnote[
   .red[a] High-GI foods rise your glucose level faster, thus triggering a stronger insulin response.
