@@ -82,11 +82,7 @@
 
         var trigger = function(event) {
           if (event && ('click' === event.type || ('keypress' === event.type && 13 === event.keyCode))) {
-            if (URL_PATTERN.test(INPUT[0].value)) {
               remarkise(INPUT[0].value);
-            } else {
-              MESSAGE.html("That doesn't look like a valid URL :-/");
-            }
           }
         };
 
