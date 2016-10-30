@@ -89,7 +89,7 @@ layout: false
 ]
 .right-column[
 ### Secondary benefits of a low-carb diet
-- Avoid fructose > useless to the body, processed like alcohol, stored as visceral fat around organs.
+- Avoid fructose > useless to the body, processed like alcohol, stored as visceral fat around organs..red[f, g]
 - Avoid wheat > reduce chronic inflammation of the gut.red[a]
 - Avoid polyunsaturated fat > reduce cancer risk and inflammation.red[e]
 - More nutritionally dense food > improved micros
@@ -105,7 +105,11 @@ layout: false
 
   .red[d] *Earliest evidence for caries and exploitation of starchy plant foods in Pleistocene hunter-gatherers from Morocco*, Humphrey et al.
 
-  .red[3] *Current Evidence Linking Polyunsaturated Fatty Acids with Cancer Risk and Progression*, Azrad et al.
+  .red[e] *Current Evidence Linking Polyunsaturated Fatty Acids with Cancer Risk and Progression*, Azrad et al.
+
+  .red[f] *Sucrose-sweetened beverages increase fat storage in the liver, muscle, and visceral fat depot*, Maersk et al.
+
+  .red[g] *Soft drinks consumption and nonalcoholic fatty liver*, Nseir et al.
   ]
 ]
 ---
