@@ -148,8 +148,8 @@
 
             },
             success: function(data) {
-              if (!window.location.search || !window.location.search.match(/\?url=.+/)) {
-                history.pushState({}, null, window.location.href + '?' + $.param({url: url}));
+              if (!window.location.search || !window.location.search.match(/\?u=.+/)) {
+                history.pushState({}, null, window.location.href + '?' + $.param({u: url}));
               }
               createPresentationFromText(data);
             }
@@ -157,7 +157,7 @@
 
         };
 
-        if (window.location.search && window.location.search.match(/\?url=.+/)) {
+        if (window.location.search && window.location.search.match(/\?u=.+/)) {
           remarkise(decodeURIComponent(window.location.search.split('=')[1]));
         } else {
           INPUT.keypress(trigger);

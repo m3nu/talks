@@ -16,6 +16,8 @@ h1, h2, h3 {
 .footnote {
   position: absolute;
   bottom: 2em;
+  margin-right: 1em;
+  text-indent: -15px;
 }
 .footnote p {
     line-height: 1.1em;
@@ -24,9 +26,11 @@ h1, h2, h3 {
 }
 li p { line-height: 1.25em; }
 .red { 
-  color: #fa0000; 
-  vertical-align: super;
+  color: rgb(249, 38, 114); 
+  vertical-align: top;
   font-size: smaller;
+  position: relative;
+  top: -0.3em;
   }
 .pink {color: rgb(249, 38, 114);}
 .large { font-size: 2em; }
@@ -121,5 +125,9 @@ code {
   padding-top: 1em;
 }
 ul li {
-  line-height: 1.4em;
+  line-height: 1.2em;
+  margin-top: 0.1em;
+}
+.remark-slide img {
+    width: 100%;
 }
