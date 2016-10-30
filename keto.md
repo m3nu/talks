@@ -67,7 +67,7 @@ layout: false
 ]
 .right-column[
 ### Primary effects of carb restriction
-- Keep glucose, keep insulin low
+- Keep glucose low, keep insulin low
 - Body oxidizes fat instead of storing it.
 - No glucose/insulin fluctuations > stable energy
 - No development of insulin resistance > avoid all kinds of diabetes.
@@ -136,7 +136,7 @@ How to start your ketogenic diet:
 - Track food intake in the first weeks
 
 .footnote[
-  .red[1] Possible Reasons: agricultural subsidies, misguided dietary recommendations, industry lobbying, unfounded fear of fat.
+  .red[a] Possible Reasons: agricultural subsidies, misguided dietary recommendations, industry lobbying, unfounded fear of fat.
 ]
 
 ]
@@ -184,7 +184,7 @@ These foods should be avoided:
 Track your progress using these markers.
 - waist/height ratio `< .45`: unhealthy fat will gather around the waist, free to measure.
 - blood pressure `< 120/80`: Elevation can be a sign of atherosclerosis.
-- Triglycerides/HDL `< 1.5`: Rough estimator of insulin resistance and LDL particle size.
+- Triglycerides/HDL ratio `< 1.5`: Rough estimator of insulin resistance and LDL particle size.
 - fasting insulin `< 8`
 - HDL `> 65`: Has many useful functions, can reverse atherosclerosis, can be increased by eating saturated and monounsatured fats, exercise and *moderate* amounts of red wine.
 - HbA1c `< 4.5%`: Long-term blood glucose.
