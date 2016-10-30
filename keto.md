@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="keywords" content="remark,remarkjs,markdown,slideshow,presentation" />
-    <meta name="description" content="A simple, in-browser, markdown-driven slideshow tool." />
-    <title>Remark</title>
-    <link rel="stylesheet" type="text/css" href="remark.css">
-  </head>
-  <body>
-    <textarea id="source">
 name: inverse
 layout: true
 class: center, middle, inverse
@@ -182,19 +171,3 @@ class: center, middle, inverse
 .pink[manu@vlx.cc]
 
 Link to presentation .pink[http://]
-
-    </textarea>
-    <script src="//remarkjs.com/downloads/remark-latest.min.js"></script>
-    <script>
-      var hljs = remark.highlighter.engine;
-    </script>
-    <script src="//remarkjs.com/remark.language.js"></script>
-    <script>
-      var slideshow = remark.create({
-          highlightStyle: 'monokai',
-          highlightLanguage: 'remark',
-          highlightLines: true
-        }) ;
-    </script>
-  </body>
-</html>
