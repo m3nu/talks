@@ -31,7 +31,7 @@ layout: false
 - improve memory and brain function.red[b]
 - prevent modern chronic metabolic disease like 
   - type 2 diabetes.red[c]
-  - Parkinson.red[h]/Alzheimer's (type 3 diabetes).red[d]
+  - Alzheimer's.red[d, i] and Parkinson.red[h]
   - heart attack, stroke and CVD.red[e]
 - slow aging.red[f] and support apoptosis and autophagy
 - reduce migraines and other neurological disease.red[g]
@@ -45,7 +45,7 @@ layout: false
   
   .red[d] [Affects](http://www.worldlifeexpectancy.com/malaysia-coronary-heart-disease) 50,000+ people in Malaysia
 
-  .red[e] Responsible for 45% of deaths in MY, see [worldlifeexpectancey.com](http://www.worldlifeexpectancy.com/malaysia-coronary-heart-disease)
+  .red[e] [Responsible](http://www.worldlifeexpectancy.com/malaysia-coronary-heart-disease) for 45% of deaths in Malaysia.
 
   .red[f] *Mitochondria—A Nexus for Aging, Calorie Restriction, and Sirtuins?*, Guarente
 
