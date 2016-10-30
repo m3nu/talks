@@ -6,6 +6,8 @@ class: center, middle, inverse
 #Ketogenic Diet 101
 .pink[Improve your health and mental performance]
 
+Updated Oct 2016
+
 ---
 layout: false
 .left-column[
@@ -24,30 +26,34 @@ layout: false
   ## Benefits
 ]
 .right-column[
-### What to gain from a low-carb lifestyle
+### What to gain from a low-carb lifestyle?
 - naturally control your weight and prevent obesity.red[a]
 - improve memory and brain function.red[b]
 - prevent modern chronic metabolic disease like 
   - type 2 diabetes.red[c]
-  - type 3 diabetes/Alzheimer.red[d]
+  - Parkinson.red[h]/Alzheimer's (type 3 diabetes).red[d]
   - heart attack, stroke and CVD.red[e]
-- slow aging via reduced growth hormones.red[f] and apoptosis/autophagy
-- reduce migraines and many other neurological disease.red[g]
+- slow aging.red[f] and support apoptosis and autophagy
+- reduce migraines and other neurological disease.red[g]
 
 .footnote[
-  .red[a] Affects 49% of women, 44% of men in MY, see [The Star](http://www.thestar.com.my/news/nation/2014/06/16/obesity-malaysia-highest-in-asia-says-pm-science-advisor/)
+  .red[a] Affects 49% of women, 44% of men in MY, according to [The Star](http://www.thestar.com.my/news/nation/2014/06/16/obesity-malaysia-highest-in-asia-says-pm-science-advisor/)
   
   .red[b] *Caloric restriction improves memory in elderly humans*, Witte et al.
   
   .red[c] Affects 3.3 million people (16% of the population) or 25% of those aged >65, see [idf.org](http://www.idf.org/membership/wp/malaysia)
   
-  .red[d] [Affects](http://www.worldlifeexpectancy.com/malaysia-coronary-heart-disease) 50k in MY
+  .red[d] [Affects](http://www.worldlifeexpectancy.com/malaysia-coronary-heart-disease) 50,000+ people in Malaysia
 
   .red[e] Responsible for 45% of deaths in MY, see [worldlifeexpectancey.com](http://www.worldlifeexpectancy.com/malaysia-coronary-heart-disease)
 
-  .red[f] See [mercola.com](http://articles.mercola.com/sites/articles/archive/2014/02/02/ketogenic-diet-health-benefits.aspx)
-
+  .red[f] *Mitochondria—A Nexus for Aging, Calorie Restriction, and Sirtuins?*, Guarente
+  
   .red[g] Keto diets were actually first used to treat epilepsy. Regarding migraine, see this new article on [researchgate.net](https://www.researchgate.net/blog/post/less-carbs-more-fat-ketogenic-diet-treats-migraine-patients) 
+
+  .red[h] *Parkinson's disease, insulin resistance and novel agents of neuroprotection*, Aviles-Olmos et al.
+
+  .red[i] *Alzheimer's Disease Is Type 3 Diabetes–Evidence Reviewed*, De la Monte and Wands
   ]
 ]
 ---
@@ -189,8 +195,8 @@ Irrelevant markers:
 .right-column[
 ### Books
 - The Art and Science of Low Carbohydrate Living, Volek and Phinney
-- Essentials of Human Nutrition, Mann and Truswell
 - The Complete Guide to Fasting, Jason Fung
+- Essentials of Human Nutrition, Mann and Truswell
 
 ### Websites
 - Reddit [https://www.reddit.com/r/ketoscience/](https://www.reddit.com/r/ketoscience/)
