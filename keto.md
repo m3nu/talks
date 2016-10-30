@@ -8,6 +8,8 @@ class: center, middle, inverse
 
 Updated Oct 2016
 
+BarCamp Cyberjaya 2016
+
 ---
 layout: false
 .left-column[
@@ -222,6 +224,6 @@ name: inverse
 class: center, middle, inverse
 ##Thanks for coming
 
-.pink[manu@vlx.cc]
+Contact: .pink[manu@vlx.cc]
 
-.pink[https://m3nu.github.io/talks/?u=keto.md]
+Slides: .pink[https://m3nu.github.io/talks/?u=keto.md]
