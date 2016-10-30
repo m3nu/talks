@@ -27,7 +27,7 @@ layout: false
 ]
 .right-column[
 ### What to gain from a low-carb lifestyle?
-- naturally control your weight and prevent obesity.red[a]
+- naturally control your weight and prevent obesity.red[a, j]
 - improve memory and brain function.red[b]
 - prevent modern chronic metabolic disease like 
   - type 2 diabetes.red[c]
@@ -41,19 +41,21 @@ layout: false
   
   .red[b] *Caloric restriction improves memory in elderly humans*, Witte et al.
   
-  .red[c] Affects 3.3 million people (16% of the population) or 25% of those aged >65, see [idf.org](http://www.idf.org/membership/wp/malaysia)
+  .red[c] Affects 3.3 million people in Malaysia, see [idf.org](http://www.idf.org/membership/wp/malaysia)
   
   .red[d] [Affects](http://www.worldlifeexpectancy.com/malaysia-coronary-heart-disease) 50,000+ people in Malaysia
 
   .red[e] Responsible for 45% of deaths in MY, see [worldlifeexpectancey.com](http://www.worldlifeexpectancy.com/malaysia-coronary-heart-disease)
 
   .red[f] *Mitochondria—A Nexus for Aging, Calorie Restriction, and Sirtuins?*, Guarente
-  
-  .red[g] Keto diets were actually first used to treat epilepsy. Regarding migraine, see this new article on [researchgate.net](https://www.researchgate.net/blog/post/less-carbs-more-fat-ketogenic-diet-treats-migraine-patients) 
+
+  .red[g] *Cortical functional correlates of responsiveness to short-lasting preventive intervention with ketogenic diet in migraine*, Di Lorenzo et al.
 
   .red[h] *Parkinson's disease, insulin resistance and novel agents of neuroprotection*, Aviles-Olmos et al.
 
   .red[i] *Alzheimer's Disease Is Type 3 Diabetes–Evidence Reviewed*, De la Monte and Wands
+
+  .red[j] *Effects of a low-carbohydrate diet on weight loss and cardiovascular risk factor in overweight adolescents*, Sondike et al.
   ]
 ]
 ---
