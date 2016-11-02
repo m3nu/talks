@@ -92,11 +92,11 @@ layout: false
 .right-column[
 ### Secondary benefits of a low-carb diet
 - Avoid fructose > useless to the body, processed like alcohol, stored as visceral fat around organs..red[f, g]
-- Avoid wheat > reduce chronic inflammation of the gut.red[a]
+- Avoid wheat > reduce chronic inflammation.red[a]
 - Avoid polyunsaturated fat > reduce cancer risk and inflammation.red[e]
 - More nutritionally dense food > improved micros
-- Reduced appetite > easy fasting > autophagy.red[b] and apoptosis.red[c]
-- Fewer fermentable carbohydrates > less tooth decay and cavity.red[d]
+- Reduced appetite and fewer meals.red[h] > autophagy.red[b] and apoptosis.red[c]
+- Fewer fermentable carbohydrates > less tooth decay..red[d]
 
 .footnote[
   .red[a] *The Dietary Intake of Wheat and other Cereal Grains and Their Role in Inflammation*, De Punder and Pruimboom
@@ -112,6 +112,8 @@ layout: false
   .red[f] *Sucrose-sweetened beverages increase fat storage in the liver, muscle, and visceral fat depot*, Maersk et al.
 
   .red[g] *Soft drinks consumption and nonalcoholic fatty liver*, Nseir et al.
+
+  .red[h] *Energy Density, Portion Size, and Eating Occasions: Contributions to Increased Energy Intake in the United States, 1977–2006*, Duffey and Popkin
   ]
 ]
 ---
