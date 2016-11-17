@@ -3,8 +3,8 @@ layout: true
 class: center, middle, inverse
 
 ---
-#Ketogenic Diet 101
-.pink[Improve your health and mental performance]
+#Low Carb Lifestyle
+.pink[Optimising your diet for <br>health, mental performance and longevity.]
 
 Updated Oct 2016
 
@@ -16,11 +16,19 @@ layout: false
   ## Disclaimer
 ]
 .right-column[
-## This is not medical advice.
+## Here be dragons
+- This is not medical advice.
+- I don't have any medical training whatsoever.
+- My training was in business, IT and simulation optimization.
+- Have your markers monitored by a doctor, before and after making big dietary changes.
 - Consult with a doctor before making dietary changes.
-- Beware that most doctor's aren't trained in nutrition.
-- Don't trust anything you read online.
-- Don't trust me.
+
+## Beware
+- Most doctor's aren't trained in nutrition.
+- Current medicine is focused on curing 20th-century infectious disease, not modern chronic disease.
+- Don't trust anything you read online. Most of it is a lie.
+- Don't trust me. Draw your own conclusions.
+
 ]
 
 ---
@@ -35,7 +43,7 @@ layout: false
   - type 2 diabetes.red[c]
   - Alzheimer's.red[d, i] and Parkinson.red[h]
   - heart attack, stroke and CVD.red[e]
-- slow aging.red[f] and support apoptosis and autophagy
+- slow aging.red[f, k] and support apoptosis and autophagy
 - reduce migraines and other neurological disease.red[g]
 
 .footnote[
@@ -58,6 +66,8 @@ layout: false
   .red[i] *Alzheimer's Disease Is Type 3 Diabetes–Evidence Reviewed*, De la Monte and Wands
 
   .red[j] *Effects of a low-carbohydrate diet on weight loss and cardiovascular risk factor in overweight adolescents*, Sondike et al.
+
+  .red[k] *The role of insulin and IGF-1 signaling in longevity*, Katic and Kahn
   ]
 ]
 ---
@@ -67,11 +77,11 @@ layout: false
 ]
 .right-column[
 ### Primary effects of carb restriction
-- Keep glucose low, keep insulin low
-- Body oxidizes fat instead of storing it.
+- High insulin sensitivity > avoid metabolic syndrom
 - No glucose/insulin fluctuations > stable energy
-- No development of insulin resistance > avoid all kinds of diabetes.
-- Fat is a cleaner fuel.red[a, b, c, d, e] > fewer free radicals, less inflammation, more capacity for repair work.
+- Low glucose, low insulin > low mTOR growth hormones > reduced aging and cancer
+- Body oxidizes fat instead of storing it > reduced adipose fat
+- Fat is a cleaner fuel.red[a, b, c, d, e] > less cellular damager > reduced aging and cancer
 
 .footnote[
   .red[a] Carbs only give 4 calories energy per g vs 9 cal/g for fat. While burning fat, 30% less carbonoxide is produced which points to fewer by-products.
@@ -122,12 +132,12 @@ layout: false
 ### Getting Started
 ]
 .right-column[
-### Reduce carbohydrates by chaning your macro-nutrients
+### Reduce carbohydrates by changing your macro-nutrients
 
 3 macro-nutrients:
 - *Carbohydrates*: Intake dramatically increased since 1960s..red[a]
 - *Fat*: Safest food of all, no insulin reaction, clean and efficient fuel
-- *Protein*: Constant at 1.4g (female: 1.2g) per kg ideal body weight per day.red[b]
+- *Protein*: Constant at 0.8g.red[b]per kg ideal body weight.
 
 How to start your ketogenic diet:
 - Shift macros from carbs to fat, protein constant.
@@ -139,7 +149,7 @@ How to start your ketogenic diet:
 .footnote[
   .red[a] Possible Reasons: agricultural subsidies, misguided dietary recommendations, industry lobbying, unfounded fear of fat.
 
-  .red[b] *Metabolic Aspects of a Protein-Sparing Modified Fast in the Dietary Management of Prader-Willi Obesity*, Bistrian et al.
+  .red[b] Energy and protein requirements, World Health Organization
 
   .red[c] [*Low-Carb Side Effects
 & How to Cure Them*](https://www.dietdoctor.com/low-carb/side-effects)
@@ -158,8 +168,6 @@ How to start your ketogenic diet:
 .left-column[
 ## How-To
 ### Getting Started
-### Low-carb foods
-### High-carb foods
 ### What to eat
 ]
 .right-column[
