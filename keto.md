@@ -3,8 +3,8 @@ layout: true
 class: center, middle, inverse
 
 ---
-#Fat-Hacking your diet to increase mental performance
-.pink[Optimising your nutrition for <br>mental performance, health and longevity.]
+#Fat-Hacking your diet
+.pink[to increase mental performance and health]
 
 Updated Dec 2016
 
@@ -131,7 +131,7 @@ layout: false
 .right-column[
 ### Reduce carbohydrates by changing your macro-nutrients
 
-3 macro-nutrients:
+There are 3 macro-nutrients:
 - *Carbohydrates*: Intake dramatically increased since 1960s..red[a]
 - *Fat*: Safest food of all, no insulin reaction, clean and efficient fuel
 - *Protein*: Constant at 0.8g.red[b]per kg ideal body weight.
