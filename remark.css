@@ -122,7 +122,7 @@ code {
 .right-column {
   width: 75%;
   float: right;
-  padding-top: 1em;
+  padding-top: 5px;
 }
 ul li {
   line-height: 1.2em;

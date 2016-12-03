@@ -3,10 +3,10 @@ layout: true
 class: center, middle, inverse
 
 ---
-#Low Carb Lifestyle
-.pink[Optimising your diet for <br>health, mental performance and longevity.]
+#Fat-Hacking your diet to increase mental performance
+.pink[Optimising your nutrition for <br>mental performance, health and longevity.]
 
-Updated Oct 2016
+Updated Dec 2016
 
 BarCamp Cyberjaya 2016
 
@@ -16,17 +16,14 @@ layout: false
   ## Disclaimer
 ]
 .right-column[
-## Here be dragons
 - This is not medical advice.
-- I don't have any medical training whatsoever.
-- My training was in business, IT and simulation optimization.
-- Have your markers monitored by a doctor, before and after making big dietary changes.
+- I don't have medical training.
 - Consult with a doctor before making dietary changes.
 
 ## Beware
 - Most doctor's aren't trained in nutrition.
 - Current medicine is focused on curing 20th-century infectious disease, not modern chronic disease.
-- Don't trust anything you read online. Most of it is a lie.
+- Don't trust anything you read online.
 - Don't trust me. Draw your own conclusions.
 
 ]
@@ -36,15 +33,15 @@ layout: false
   ## Benefits
 ]
 .right-column[
-### What to gain from a low-carb lifestyle?
-- naturally control your weight and prevent obesity.red[a, j]
+### What to gain from a high-fat lifestyle?
 - improve memory and brain function.red[b]
+- reduce migraines and other neurological disease.red[g]
+- naturally control your weight and prevent obesity.red[a, j]
 - prevent modern chronic metabolic disease like 
   - type 2 diabetes.red[c]
   - Alzheimer's.red[d, i] and Parkinson.red[h]
   - heart attack, stroke and CVD.red[e]
 - slow aging.red[f, k] and support apoptosis and autophagy
-- reduce migraines and other neurological disease.red[g]
 
 .footnote[
   .red[a] Affects 49% of women, 44% of men in MY, according to [The Star](http://www.thestar.com.my/news/nation/2014/06/16/obesity-malaysia-highest-in-asia-says-pm-science-advisor/)
@@ -76,15 +73,15 @@ layout: false
 ### Primary effects
 ]
 .right-column[
-### Primary effects of carb restriction
-- High insulin sensitivity > avoid metabolic syndrom
-- No glucose/insulin fluctuations > stable energy
-- Low glucose, low insulin > low mTOR growth hormones > reduced aging and cancer
-- Body oxidizes fat instead of storing it > reduced adipose fat
+### Primary effects of high-fat diet
 - Fat is a cleaner fuel.red[a, b, c, d, e] > less cellular damager > reduced aging and cancer
+- Fewer fluctuations in blood sugar > stable energy
+- Low insulin keeps cells insulin sensitive
+- Reduced mTOR growth hormones > reduced aging and cancer
+- Body oxidizes fat instead of storing it.
 
 .footnote[
-  .red[a] Carbs only give 4 calories energy per g vs 9 cal/g for fat. While burning fat, 30% less carbonoxide is produced which points to fewer by-products.
+  .red[a] Carbs only give 4 calories energy per g vs 9 cal/g for fat. While burning fat, 30% less carbon dioxide is produced which points to fewer by-products.
 
   .red[b] *Comparison of Low Fat and Low Carbohydrate Diets on Circulating Fatty Acid Composition and Markers of Inflammation*, Forsythe et al.
 
@@ -100,12 +97,12 @@ layout: false
 ### Secondary benefits
 ]
 .right-column[
-### Secondary benefits of a low-carb diet
+### Secondary benefits of a high-fat diet
+- Reduced appetite and fewer meals.red[h] > autophagy.red[b] and apoptosis.red[c]
 - Avoid fructose > useless to the body, processed like alcohol, stored as visceral fat around organs..red[f, g]
 - Avoid wheat > reduce chronic inflammation.red[a]
 - Avoid polyunsaturated fat > reduce cancer risk and inflammation.red[e]
-- More nutritionally dense food > improved micros
-- Reduced appetite and fewer meals.red[h] > autophagy.red[b] and apoptosis.red[c]
+- Eat more nutritionally dense food
 - Fewer fermentable carbohydrates > less tooth decay..red[d]
 
 .footnote[
@@ -142,7 +139,7 @@ layout: false
 How to start your ketogenic diet:
 - Shift macros from carbs to fat, protein constant.
 - Less than 20g net carbs per day.
-- 2 weeks adaption phase, with temporary side-effects.red[c]
+- 2 weeks adaption phase, with temporary side-effects.red[d]
 - Short fasting periods, e.g. 16:8 hours can be helpful.
 - Track food intake in the first weeks.
 
@@ -151,8 +148,9 @@ How to start your ketogenic diet:
 
   .red[b] Energy and protein requirements, World Health Organization
 
-  .red[c] [*Low-Carb Side Effects
-& How to Cure Them*](https://www.dietdoctor.com/low-carb/side-effects)
+  .red[c] Meta-analysis of nitrogen balance studies for estimating protein requirements in healthy adults, Rand et al.
+
+  .red[d] [*Low-Carb Side Effects & How to Cure Them*](https://www.dietdoctor.com/low-carb/side-effects)
 ]
 
 ]
@@ -195,9 +193,9 @@ These foods should be avoided:
 ]
 .right-column[
 Track your progress using these markers.
-- waist/height ratio `< .45`: unhealthy fat will gather around the waist, free to measure.
-- blood pressure `< 120/80`: Elevation can be a sign of atherosclerosis.
-- Triglycerides/HDL ratio `< 1.5`: Rough estimator of insulin resistance and LDL particle size.
+- waist/height ratio `< .5`: unhealthy fat will gather around the waist, free to measure.
+- blood pressure `< 120/80`: Elevation can be a sign of atherosclerosis or stress.
+- Triglycerides/HDL ratio `< 2`: Rough estimator of insulin resistance and LDL particle size.
 - fasting insulin `< 8`
 - HDL `> 65`: Has many useful functions, can reverse atherosclerosis, can be increased by eating saturated and monounsatured fats, exercise and *moderate* amounts of red wine.
 - HbA1c `< 4.5%`: Long-term blood glucose.
