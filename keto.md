@@ -3,8 +3,8 @@ layout: true
 class: center, middle, inverse
 
 ---
-#Fat-Hacking your diet
-.pink[to increase mental performance and health]
+#Benefits of a high-fat, low-carb diet
+.pink[Increase mental performance and health.]
 
 Updated Dec 2016
 
