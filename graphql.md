@@ -296,7 +296,7 @@ getPersons () {
 
 ### Implementations
 - Graphene is the default for Django
-- Apollo is the default JavaScript client, but alternative are available.
+- Apollo is the default JavaScript client, but alternatives are available.
 ]
 ---
 name: inverse
@@ -307,6 +307,6 @@ name: inverse
 class: center, middle, inverse
 ## Thanks for coming
 
-Contact: .pink[manu at snapdragon.cc]
+Contact: .pink[manu(at)snapdragon.cc]
 
 Slides: .pink[https://m3nu.github.io/talks/?u=graphql.md]
