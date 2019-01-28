@@ -45,10 +45,11 @@ layout: false
 
 ### Contents
 1. Comparison with REST – Issues GraphQL solves
-2. Schema Definition and Examples
-3. Practical Example (Backend)
-4. Available Client Libraries
+2. Schema Definition
+3. Backend Example: Graphene & Django
+4. Frontend Example: Vue.js & Graphql-request
 5. Summary
+6. Questions
 ]
 
 ---
