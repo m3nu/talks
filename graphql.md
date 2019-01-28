@@ -8,7 +8,7 @@ class: center, middle, inverse
 
 Updated Jan 2019
 
-FossAsia 2019 in Singapore
+FOSS Asia 2019 in Singapore
 
 ---
 layout: false
