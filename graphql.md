@@ -54,7 +54,7 @@ layout: false
 
 ---
 .left-column[
-## Compared to REST.red[a]
+## Issues with REST.red[a]
 ]
 .right-column[
 ### Loose Standardization of REST
@@ -209,6 +209,68 @@ mutation {
 }
 ```
 
+]
+---
+.left-column[
+## Core Concepts
+### Types
+### Queries
+### Mutations
+### Nesting
+### Subscriptions
+]
+.right-column[
+### Realtime Updates
+- Client subscribes to steady updates an receives e.g. new chat messages
+- Not widely implmented yet.red[a]
+- WebSockets are often used for transport
+- I see WebSockets used *besides* GraphQL more often
+
+```graphql
+subscription {
+  newPerson {
+    name
+    age
+  }
+}
+```
+.footnote[
+  .red[a] [Apollo for NodeJS](https://blog.apollographql.com/tutorial-graphql-subscriptions-server-side-e51c32dc2951)
+
+]
+]
+---
+.left-column[
+## Core Concepts
+### Types
+### Queries
+### Mutations
+### Nesting
+### Subscriptions
+### Fragments
+]
+.right-column[
+### Fragments
+- Often you want to query the same set of fields
+- Keep it DRY with Fragments
+
+```graphql
+fragment addressDetails on User {
+  name
+  street
+  zipcode
+  city
+}
+```
+
+Use fragment in query:
+```graphql
+{
+  allUsers {
+    ... addressDetails
+  }
+}
+```
 ]
 ---
 .left-column[
