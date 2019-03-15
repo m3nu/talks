@@ -20,7 +20,7 @@ layout: false
 - First online startup: 2008 (tailor-made shirts)
 - iViveLabs agency since 2012
 - Founder of [BorgBase.com](https://www.borgbase.com) – backup hosting platform
-- "Full stack" developer (Django & Vue.js mostly)
+- Django & Vue.js mostly
 
 ### Notable Open Source/Community Projects
 - **invoice2data**.red[a] – a Python library for extracting structured data from PDF invoices, used in Odoo ERP
@@ -40,7 +40,8 @@ layout: false
 ]
 .right-column[
 ### Goals of this Talk
-- Make informed choices regarding GraphQL.
+- Targetted at web developers
+- Make informed choices regarding GraphQL
 - See how it looks like in code (Python and JavaScript)
 
 ### Contents
@@ -48,8 +49,9 @@ layout: false
 2. Schema Definition
 3. Backend Example: Graphene & Django
 4. Frontend Example: Vue.js & Graphql-request
-5. Summary
-6. Questions
+5. Bonus Content: Security
+6. Summary
+7. Questions
 ]
 
 ---
@@ -177,6 +179,39 @@ mutation {
 ### Types
 ### Queries
 ### Mutations
+### Arguments
+]
+.right-column[
+## Arguments
+Reuse queries and pass data
+```graphql
+mutation newPerson($name:String!, $age: Int!) {
+    createPerson(name: $name, age: $age) {
+      person { id }
+  }
+} 
+```
+
+```json
+{
+  "data": {
+    "createPerson": {
+      "person": {
+        "id": "7"
+      }
+    }
+  }
+}
+```
+
+]
+---
+.left-column[
+## Core Concepts
+### Types
+### Queries
+### Mutations
+### Arguments
 ### Nesting
 ]
 .right-column[
@@ -216,6 +251,7 @@ mutation {
 ### Types
 ### Queries
 ### Mutations
+### Arguments
 ### Nesting
 ### Subscriptions
 ]
@@ -245,6 +281,7 @@ subscription {
 ### Types
 ### Queries
 ### Mutations
+### Arguments
 ### Nesting
 ### Subscriptions
 ### Fragments
@@ -341,6 +378,28 @@ getPersons () {
 
   .red[d] [https://github.com/m3nu/graphql-demo-frontend](https://github.com/m3nu/graphql-demo-frontend)
   ]
+---
+.left-column[
+## Bonus Content
+]
+.right-column[
+### Access Control
+- Same endpoint/URL for all queries
+- Restrict per-query/mutation
+- e.g. `@is_authenticated` decorator
+
+### Authentication
+- Cookie (httpOnly)
+- (JWT) Token
+
+### Security.red[a]
+- Query depth
+- Query complexity
+- Throttle
+.footnote[
+  .red[a] [https://www.howtographql.com/advanced/4-security/](https://www.howtographql.com/advanced/4-security/)
+]
+]
 ---
 .left-column[
 ## Summary
