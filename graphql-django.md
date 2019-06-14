@@ -47,9 +47,9 @@ layout: false
 2. Schema Definition
 3. Backend Example: Graphene & Django
 4. Frontend Example: Vue.js & Graphql-request
-5. Bonus Content: Security
+5. Authentication and Security
 6. Summary
-7. Questions
+7. Questions/Discussion
 ]
 
 ---
@@ -64,7 +64,7 @@ layout: false
 ### Hard to Model Relationships
 - In reality we have complex nested objects (BorgBase has ca. 20 models)
 - REST is one endpoint per model `acme.com/repos/:id`
-- Populating a comples UI would need many fetches.
+- Populating a complete UI would need many fetches.
 
 ### Over-/Under Fetching
 - Client has no control over which attributes to fetch.
@@ -451,7 +451,7 @@ class Login(graphene.Mutation):
 ---
 name: inverse
 class: center, middle, inverse
-## Questions?
+## Questions/Discussion
 ---
 name: inverse
 class: center, middle, inverse
