@@ -14,13 +14,13 @@ layout: false
   ## About Me
 ]
 .right-column[
-### Professional Development
+### Businesses and Startups
 - First online startup: 2008 (tailor-made shirts)
 - iViveLabs agency since 2012
 - Founder of [BorgBase.com](https://www.borgbase.com) – backup hosting platform
 - Django & Vue.js mostly
 
-### Notable Open Source/Community Projects
+### Open Source/Community Projects
 - **invoice2data**.red[a] – a Python library for extracting structured data from PDF invoices, used in Odoo ERP
 - **Vorta**.red[b] – a Borg Backup desktop client (lightning talk coming!!)
 - **Group 868** – WhatsApp support group for startup founders, born from YC Startup School
@@ -39,7 +39,7 @@ layout: false
 .right-column[
 ### Goals of this Talk
 - Targetted at web developers already using Django
-- Short GraphQL Django
+- Introduce GraphQL concepts
 - See how it looks like in code (Python and JavaScript)
 
 ### Contents
@@ -258,7 +258,7 @@ mutation {
 - Client subscribes to steady updates an receives e.g. new chat messages
 - Not widely implmented yet.red[a]
 - WebSockets are often used for transport
-- I see WebSockets used *besides* GraphQL more often
+- I see WebSockets used *next to* GraphQL more often
 
 ```graphql
 subscription {
@@ -388,7 +388,7 @@ getPersons () {
 
 ### Authentication
 - Cookie (httpOnly)
-- (JWT) Token
+- Header token (e.g. JWT)
 
 ### Security.red[a]
 - Query depth
@@ -408,7 +408,7 @@ getPersons () {
 - Graphene works well with standard Django sessions
 - JWT middleware is available
 
-### `Login` Mutation
+#### Login and Authentication Example
 
 ```python
 class Login(graphene.Mutation):
@@ -427,6 +427,13 @@ class Login(graphene.Mutation):
             raise Exception('Invalid username or password!')
 
 ```
+```python
+class CreatePerson(graphene.Mutation):
+...
+    def mutate(self, info, **kwargs):
+        if not info.context.user.is_authenticated:
+            raise Exception('Please authenticate first.')
+```
 ]
 ---
 .left-column[
@@ -434,7 +441,7 @@ class Login(graphene.Mutation):
 ]
 .right-column[
 ### Compared to REST
-- Solves the problem of nested objects
+- Solves problems, like over/underfetching, nesting, connections
 - Minimizes number of HTTP calls
 
 ### GraphQL Schema
@@ -457,6 +464,6 @@ name: inverse
 class: center, middle, inverse
 ## Thanks for coming
 
-Contact: .pink[manu(at)snapdragon.cc]
+Twitter: .pink[@_m3nu]
 
-Slides: .pink[https://m3nu.github.io/talks/?u=graphql-django.md]
+Slides: .pink[https://m3nu.github.io/talks]
