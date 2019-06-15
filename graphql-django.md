@@ -466,4 +466,4 @@ class: center, middle, inverse
 
 Twitter: .pink[@_m3nu]
 
-Slides: .pink[https://m3nu.github.io/talks]
+Slides: .pink[github.com/m3nu/talks]
