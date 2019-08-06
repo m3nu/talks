@@ -2,6 +2,7 @@
 
 Contains talks I've given over the years.
 
+- [GraphQL with Django](https://m3nu.github.io/talks/?u=graphql-django-kl.md), PyCon Kuala Lumpur 2019
 - [GraphQL with Django](https://m3nu.github.io/talks/?u=graphql-django.md), PyCon Bangkok 2019
 - [GraphQL by Example](https://m3nu.github.io/talks/?u=graphql.md), FOSSAsia Singapore 2019
 - [Invoice-X: Electronic Invoicing for Python](https://m3nu.github.io/pycon-invoicex.pdf), PyCon Malaysia, 2018
