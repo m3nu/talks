@@ -8,10 +8,12 @@ body {
 .left-column h1, .left-column h2, .left-column h3 {
   font-weight: 100;
   margin-bottom: 0;
+  margin-block-start: 0em;
 }
 
 .left-column h3 {
   font-weight: 300;
+  margin-block-start: 0.5em;
 }
 
 .right-column h2, .right-column h3 {
@@ -80,7 +82,7 @@ code {
 }
 .inverse h1, .inverse h2 {
   color: #f3f3f3;
-  line-height: 0.8em;
+  line-height: 1.2;
 }
 
 /* Slide-specific styling */

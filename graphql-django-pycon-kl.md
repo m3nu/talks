@@ -3,7 +3,7 @@ layout: true
 class: center, middle, inverse
 
 ---
-# Adding a GraphQL API to Django
+# Django with GraphQL
 .pink[With Vue.js Frontend]
 
 Updated Aug 2019, PyCon Malaysia 2019
@@ -19,9 +19,9 @@ layout: false
 - Founder of [BorgBase.com](https://www.borgbase.com) – backup hosting platform
 - Python, Django, Go and Vue.js
 
-### Open Source/Community Projects
+### Open Source Projects
 - **invoice2data**.red[a] – a Python library for extracting structured data from PDF invoices, used in Odoo ERP
-- **Vorta**.red[b] – a Borg Backup desktop client (lightning talk coming!!)
+- **Vorta**.red[b] – a Borg Backup desktop client
 
 .footnote[
   .red[a] [https://github.com/invoice-x/invoice2data](https://github.com/invoice-x/invoice2data)
@@ -49,7 +49,6 @@ layout: false
 6. Summary
 7. Questions/Discussion
 ]
-
 ---
 .left-column[
 ## Issues with REST.red[a]
@@ -70,7 +69,6 @@ layout: false
 
 .footnote[
   .red[a] [REST vs. GraphQL](https://medium.com/codingthesmartway-com-blog/rest-vs-graphql-418eac2e3083) by Sebastian Eschweiler
-  ]
   .red[a] [GraphQL Documentary](https://www.youtube.com/watch?v=urmi2wbEpGk) via [GraphQL Conf 2019, Berlin](https://time2hack.com/2019/06/graphql-conf-2019-in-a-nutshell-some-takeaways/)
   ]
 ]
@@ -131,15 +129,7 @@ The default operation (`query` keyword can be ommitted)
 }
 ```
 
-```json
-{
-  "allPersons": [
-    { "name": "Johnny", "age": 23 },
-    { "name": "Sarah", "age": 32 },
-    { "name": "Alice", "age": 45 }
-  ]
-}
-```
+![struct](assets/graphql/operation.png)
 
 ]
 ---
@@ -251,7 +241,7 @@ mutation {
 ### Mutations
 ### Arguments
 ### Nesting
-### Subscriptions
+### Subscription
 ]
 .right-column[
 ### Realtime Updates
@@ -270,7 +260,6 @@ subscription {
 ```
 .footnote[
   .red[a] [Apollo for NodeJS](https://blog.apollographql.com/tutorial-graphql-subscriptions-server-side-e51c32dc2951)
-
 ]
 ]
 ---
@@ -281,7 +270,7 @@ subscription {
 ### Mutations
 ### Arguments
 ### Nesting
-### Subscriptions
+### Subscription
 ### Fragments
 ]
 .right-column[
@@ -390,9 +379,12 @@ getPersons () {
 - Cookie (httpOnly)
 - Header token (e.g. JWT)
 
+### Permission Managment (new!)
+- Can't filter by endpoint
+- Filter by operation, name and object
+
 ### Security.red[a]
-- Query depth
-- Query complexity
+- Query depth and complexity
 - Throttle
 .footnote[
   .red[a] [https://www.howtographql.com/advanced/4-security/](https://www.howtographql.com/advanced/4-security/)
@@ -401,7 +393,7 @@ getPersons () {
 ---
 .left-column[
 ## Auth
-### Backend
+### Login
 ]
 .right-column[
 ### Django
@@ -437,6 +429,37 @@ class CreatePerson(graphene.Mutation):
 ]
 ---
 .left-column[
+## Auth
+### Login
+### Permissions
+]
+.right-column[
+Additional API access by JWT token, filtered by operation type and name:
+
+```python
+# Webtoken has permission?
+auth_header = info.context.META.get('HTTP_AUTHORIZATION')
+if auth_header:
+    token = jwt.decode(auth_header, settings.JWT_SECRET,
+                       algorithms=[settings.JWT_ALGO])
+
+    # If the token has permission to access the current 
+    # GraphQL operation type and name, attach user details.
+    db_token = JWTToken.objects.get(pk=token['t'])
+    if info.operation.operation in perms['allowed_types']:
+        db_token.record_usage()
+        info.context.user = db_token.owner
+        return function(*args, **kwargs)
+    else:
+        raise GraphQLError("No permission for this operation.")
+```
+Attributes interesting for permissions:
+- operation type: `info.operation.operation`
+- name of current query: `info.path`
+- list of affected types? (user could request connected types)
+]
+---
+.left-column[
 ## Summary
 ]
 .right-column[
@@ -458,11 +481,7 @@ class CreatePerson(graphene.Mutation):
 ---
 name: inverse
 class: center, middle, inverse
-## Questions/Discussion
----
-name: inverse
-class: center, middle, inverse
-## Thanks for coming
+## Thanks for coming. Questions/Discussion?
 
 Twitter: .pink[@_m3nu]
 
