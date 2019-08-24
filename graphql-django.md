@@ -58,7 +58,7 @@ layout: false
 ]
 .right-column[
 ### Loose Standardization of REST
-- GET, POST, PUT, DELET – how to map them to your operations?
+- GET, POST, PUT, DELETE – how to map them to your operations?
 - My first REST API was always POST+JSON :-)
 
 ### Hard to Model Relationships
